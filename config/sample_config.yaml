@@ -1,0 +1,25 @@
+# Sample configuration for AI Trainer
+training:
+  batch_size: 32
+  epochs: 100
+  learning_rate: 0.001
+  early_stopping_patience: 5
+
+model:
+  type: random_forest
+  hyperparameters:
+    n_estimators: 100
+    max_depth: 10
+
+data:
+  input_path: data/input.csv
+  output_path: data/output.csv
+  test_size: 0.2
+
+logging:
+  level: INFO
+  path: logs/training.log
+
+monitoring:
+  cpu_threshold: 80
+  memory_threshold: 90
