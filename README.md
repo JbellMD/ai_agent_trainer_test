@@ -1,6 +1,6 @@
 # AI Agent Trainer
 
-![CI/CD Pipeline](https://github.com/yourusername/ai_agent_trainer/workflows/CI/CD/badge.svg)
+![CI/CD Pipeline](https://github.com/JbellMD/ai_agent_trainer/workflows/CI/CD/badge.svg)
 ![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
